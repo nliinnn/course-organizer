@@ -1,0 +1,128 @@
+* {
+  font-family: "DM Sans";
+  font-weight: 400;
+}
+
+body {
+  background-color: #e7f9ff;
+}
+
+.CourseListWrapper {
+  width: 600px;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 50px;
+  background-color: rgb(248, 248, 248);
+  border-color: #f5cdc8;
+  border-style: solid;
+  border-width: medium;
+  text-align: center;
+}
+
+.main-title {
+  text-shadow: 1px 1px 1px #a5a0a0;
+  position: relative;
+  top: 15px;
+  font-family: "DM Sans";
+  font-size: 40px;
+  color: #D5B195;
+}
+
+.add-course {
+  width: 400px;
+  height: 20px;
+  margin: 10px;
+  margin-left: 1px;
+  padding: 10px;
+  background-color: #98BFD1;
+  border: none;
+}
+
+.add-course:focus {
+  outline: none;
+}
+
+::placeholder, input, select {
+  font-family: "DM Sans";
+  color: white;
+}
+
+.add-button {
+  height: 40px;
+  width: 42px;
+  border: none;
+  margin: 4px;
+  padding: 10px;
+  border-radius: 0;
+  background-color: #98BFD1;
+  font-size: 15px;
+  color: white;
+}
+
+.add-button:focus {
+  outline: none;
+}
+
+.Course, .CourseTask {
+  height: 90px;
+  width: 475px;
+  background-color: #e7ceba;
+  margin: auto;
+  margin-top: 6px;
+  color: rgb(255, 254, 254);
+}
+
+.task-name {
+  text-shadow: 1px 1px 1px #a5a0a0;
+  left: 95px;
+  position: absolute;
+  font-weight: 700;
+}
+
+.task-access {
+  text-shadow: 1px 1px 1px #ffffff;
+  position: absolute;
+  left: 95px;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.link-task {
+  color: rgb(131, 172, 182);
+  text-decoration: none;
+}
+
+.link-task:hover {
+  color: rgb(140, 192, 224);
+  text-decoration: none;
+}
+
+.task-arrow:hover {
+  color: rgb(140, 192, 224);
+  text-decoration: none;
+}
+
+.icon-delete {
+  position: absolute;
+  right: 80px;
+  margin-top: 15px;
+  width: 20px;
+  height: auto;
+}
+
+.icon-delete:hover {
+  color: grey;
+}
+
+.task-arrow {
+  color: rgb(131, 172, 182);
+  position: absolute;
+  left: 30px;
+  width: 20px;
+  height: auto;
+}
