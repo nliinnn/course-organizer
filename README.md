@@ -1,2 +1,2 @@
 # course-organizer
-Course Organizer
+https://my-course-organizer.netlify.app/
