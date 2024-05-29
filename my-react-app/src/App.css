@@ -1,0 +1,129 @@
+* {
+  font-family: "DM Sans";
+  font-weight: 400;
+}
+
+body {
+  background-color: #d8e2f0;
+}
+
+.CourseListWrapper {
+  width: 600px;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 50px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 30px;
+  box-shadow: 3.2px 6.4px 6.4px hsl(0deg 0% 0% / 0.40);
+  text-align: center;
+}
+
+.main-title {
+  position: relative;
+  top: 15px;
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-weight: 800;
+  color: #585756;
+}
+
+.add-course {
+  width: 400px;
+  height: 20px;
+  margin: 10px;
+  margin-left: 1px;
+  padding: 10px;
+  background-color: #e7edee;
+  border-radius: 10px;
+  border: 2px solid #a2a6a8;
+}
+
+.add-course:focus {
+  outline: none;
+}
+
+::placeholder, input, select {
+  font-family: "DM Sans";
+  color: rgb(117, 112, 112);
+}
+
+.add-button {
+  height: 40px;
+  width: 42px;
+  border: none;
+  margin: 4px;
+  padding: 10px;
+  border-radius: 0;
+  background-color: #a1a6a8;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+.add-button:focus {
+  outline: none;
+}
+
+.Course, .CourseTask {
+  height: 90px;
+  width: 475px;
+  background-color: #aeb4d3;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 6px;
+  color: rgb(255, 254, 254);
+}
+
+.task-name {
+  text-shadow: 1px 1px 1px #a5a0a0;
+  left: 95px;
+  position: absolute;
+  font-weight: 700;
+}
+
+.task-access {
+  position: absolute;
+  left: 95px;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.link-task {
+  color: rgb(214, 224, 226);
+  text-decoration: none;
+}
+
+.link-task:hover {
+  color: rgb(194, 208, 209);
+  text-decoration: none;
+}
+
+.task-arrow:hover {
+  color: rgb(214, 224, 226);
+  text-decoration: none;
+}
+
+.icon-delete {
+  position: absolute;
+  right: 80px;
+  margin-top: 15px;
+  width: 20px;
+  height: auto;
+}
+
+.icon-delete:hover {
+  color: grey;
+}
+
+.task-arrow {
+  color: rgb(131, 172, 182);
+  position: absolute;
+  left: 30px;
+  width: 20px;
+  height: auto;
+}
