@@ -2,7 +2,7 @@
 
 A simple course organizer that can be used to tracks courses and tasks. The web app can also be accessed here: https://mycourseorganizer.netlify.app/! 🌟
 
-### How to Set Up
+## How to Set Up
 
 1. Copy and paste into the terminal
 
@@ -28,6 +28,6 @@ npm install
 npm start
 ```
 
-### Built With
+## Built With
 
 * [React](https://react.dev/)
